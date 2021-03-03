@@ -14,12 +14,10 @@ public class StudentConfig {
         return args->{
                     Student Sanek = new Student(1L,
                             "Sanek",
-                            26,
                             LocalDate.of(1994,7,11),
                             "ggg@gmail.com");
                     Student Nekit = new Student(2L,
                             "Nekit",
-                            18,
                             LocalDate.of(1994,7,11),
                             "ggg@gmail.com");
                     repository.saveAll(
